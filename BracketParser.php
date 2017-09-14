@@ -53,4 +53,4 @@ class BracketParser
 
 $parser = new BracketParser();
 
-$parser->parse("(}{)");
+$parser->parse("{}[]()");
