@@ -25,7 +25,6 @@ class BracketParser
         }
         else
             echo $this->indexOfNotBalancedBracked;
-        var_dump($this->stack);
     }
 
     public function isReverseElementForTop($elem): bool
